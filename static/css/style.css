@@ -1,0 +1,31 @@
+#email_logo{
+    height: 15px;
+    width: 13px;
+}
+
+#location_logo{
+    height: 15px;
+    width: 13px;
+}
+
+#linkedin_logo{
+    height: 15px;
+    width: 13px;
+}
+
+#github_logo{
+    height: 15px;
+    width: 13px;
+}
+
+h2{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}
+
+li{
+    text-align: left;
+}
