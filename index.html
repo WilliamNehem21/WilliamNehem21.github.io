@@ -9,6 +9,17 @@
     <script src="static/vendor/bootstrap/bootstrap.js" type="text/javascript" defer></script>
     <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/bootstrap.css">
     <title>William Nehemia</title>
+    <style>
+        .name {
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .left-align {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <div class=''>
@@ -26,6 +37,7 @@
                   <a class="nav-link" href="#awards">Awards</a>
                   <a class="nav-link" href="#projects">Projects</a>
                   <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link" href="#certifications">Certifications</a>
                 </div>
               </div>
             </div>
@@ -34,38 +46,32 @@
             <div class="row">
               <div class="col col-lg-3">
                 <img src="foto.png" width="200" height="250">
-                <p>William Nehemia</p>
+                <p class="name">William Nehemia</p>
                 
-                <div class="container text-center">
+                <div class="container">
                   <div class="row">
                     <div class="col-1">
                       <img src="static/img/google-maps.png" alt="location_logo" id="location_logo"/>
                     </div>
-                    <div class="col-11">
-                      <p>Tangerang, 15122</p>
+                    <div class="col-11 left-align">
+                      <p style="display: inline;">Tangerang, Indonesia</p>
                     </div>
                     <div class="col-1">
                       <img src="static/img/gmail.png" alt="email_logo" id="email_logo"/>
                     </div>
-                    <div class="col-11">
-                      <p>williamnehemia360@gmail.com</p>
-                    </div>
-                    <div class="col-1">
-                      <img src="static/img/phone.png" alt="phone_logo" id="phone_logo"/>
-                    </div>
-                    <div class="col-11">
-                      <p>+6282113019810</p>
+                    <div class="col-11 left-align">
+                      <p style="display: inline;">williamnehemia360@gmail.com</p>
                     </div>
                     <div class="col-1">
                       <img src="static/img/linkedin.png" alt="linkedin_logo" id="linkedin_logo"/>
                     </div>
-                    <div class="col-11">
+                    <div class="col-11 left-align">
                       <a class="nav-link" href="https://www.linkedin.com/in/william-nehemia21/">LinkedIn</a>
                     </div>
                     <div class="col-1">
                       <img src="static/img/github.png" alt="github_logo" id="github_logo"/>
                     </div>
-                    <div class="col-11">
+                    <div class="col-11 left-align">
                       <a class="nav-link" href="https://github.com/WilliamNehem21">GitHub</a>
                     </div>
                   </div>
@@ -75,6 +81,13 @@
                 <div class="container" id="about">
                  <h2>About</h2>
                  <p>Highly motivated and technically adept Informatics graduate with a strong passion for the Data Science field. Equipped with valuable experience in data collection, data cleaning, and building models through small projects during my studies at Parahyangan Catholic University. I am eager to contribute my skills and collaborate within a team to tackle real-world challenges. Seeking opportunities to leverage my passion for Data Science and continue developing expertise in this dynamic and evolving domain.</p>
+
+                 <p>Interest topics:</p>
+                 <ul>
+                  <li>Natural Language Processing</li>
+                  <li>Machine Learning</li>
+                  <li>Computer Vision</li>
+                </ul> 
                 </div>
                 <div class="container" id="education">
                   <h2>Education</h2>
@@ -139,35 +152,54 @@
                       <p>Developed a classification model using TensorFlow to detect various types of food. Scraped images of junk food from Google to construct the dataset. Trained a machine learning model to accurately classify different types of junk food. Implemented the model for dietary analysis, health monitoring, and food recognition systems.</p>
                     </li>
                     <li>
-                      <h4>Document Ranking Information Retrieval System</h4>
-                      <p>Implemented a Document Ranking Information Retrieval System using the Vector Space Model (VSM). Parses, tokenizes, and calculates term frequencies (tf) for documents and queries, computes document-query similarity using cosine similarity metric, and constructs tf, dft, and tf-idf vectors for efficient document-query indexing.</p>
+                      <h4>Machine Paraphrased Essay Detector</h4>
+                      <p>Developed a system to detect paraphrased essays using machine learning techniques. Utilized Natural Language Processing (NLP) methods for semantic analysis and comparison. Created a dataset of paraphrased essays and original texts for model training and evaluation. Implemented an automated solution to identify and flag paraphrased content in academic writing.</p>
+                    </li>
+                    <li>
+                      <h4>Employee Information Systems</h4>
+                      <p>Developed a system to manage employee information for an organization. Designed and implemented features for employee registration, profile management, and performance tracking. Implemented secure authentication and authorization mechanisms for data access control. Enhanced organizational efficiency by providing a centralized platform for employee information management.</p>
                     </li>
                   </ul>
-                </div>
-                <div class="container" id="skills">
-                  <h2>Additional</h2>
+                 </div>
+                 <div class="container" id="skills">
+                  <h2>Skills</h2>
+                  <p>Programming Languages:</p>
                   <ul>
-                    <li>
-                      <h4>Technical Skills</h4>
-                      <p>Python (Data Manipulation, Analysis, Scripting, Mining, Machine Learning, Natural Language Processing), Microsoft SQL Server (Database Management, Querying), TensorFlow (Machine Learning, Natural Language Processing, Computer Vision), PowerBI, Tableau (Data Visualization, Analysis), Microsoft Excel (Data Manipulation, Visualization, Analysis), GitHub, GitLab (Project Management Tools)</p>
-                    </li>
-                    <li>
-                      <h4>Soft Skills</h4>
-                      <p>Critical Thinking, Project Management, Problem-solving, Adaptability</p>
-                    </li>
-                    <li>
-                      <h4>Languages</h4>
-                      <p>Indonesian: Fluent, English: Conversational Proficiency (IELTS Score: 5.5, Pearson Benchmark Score: B1)</p>
-                    </li>
-                    <li>
-                      <h4>Certification and Courses</h4>
-                      <p>TensorFlow Developer Certificate (Issued by TensorFlow Certificate Program, August 2023 - August 2026), Google Data Analytics Specialization (Issued by Coursera, April 2023), Data Visualization with Python (Issued by IBM Cognitive Class, March 2022), Data Analysis with Python (Issued by IBM Cognitive Class, March 2022), Machine Learning Specialization (Issued by Coursera, March 2023), Structuring Machine Learning Projects (Issued by Coursera, April 2023), Natural Language Processing Specialization (Issued by Coursera, July 2023)</p>
-                    </li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                  </ul>
+                  <p>Tools:</p>
+                  <ul>
+                    <li>TensorFlow</li>
+                    <li>PowerBI</li>
+                    <li>Tableau</li>
+                    <li>Microsoft Excel</li>
+                    <li>GitHub</li>
+                    <li>GitLab</li>
+                  </ul>
+                  <p>Soft Skills:</p>
+                  <ul>
+                    <li>Critical thinking</li>
+                    <li>Problem-solving</li>
+                    <li>Project management</li>
+                    <li>Adaptability</li>
+                  </ul>
+                 </div>
+                 <div class="container" id="certifications">
+                  <h2>Certifications</h2>
+                  <ul>
+                    <li>TensorFlow Developer Certificate</li>
+                    <li>Google Data Analytics</li>
+                    <li>Data Visualization with Python</li>
+                    <li>Data Analysis with Python</li>
+                    <li>Machine Learning</li>
+                    <li>Structuring Machine Learning Projects</li>
+                    <li>Natural Language Processing</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-      </div>
+        </div>
 </body>
 </html>
