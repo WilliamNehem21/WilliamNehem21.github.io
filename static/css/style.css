@@ -29,3 +29,7 @@ p{
 li{
     text-align: left;
 }
+
+.nav-link:hover {
+    color: blue !important;
+}
